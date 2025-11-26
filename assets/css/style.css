@@ -1,0 +1,24 @@
+
+/* assets/css/style.css - Theme E global styles */
+:root{
+  --green-500: #16a34a;
+  --green-700: #065f46;
+  --bg: #f6faf6;
+  --muted: #6b7280;
+}
+body { background: var(--bg); font-family: 'Poppins', Arial, sans-serif; color: #0f172a; }
+.navbar-custom { background: #fff; box-shadow: 0 6px 18px rgba(15,23,42,0.06); border-bottom: 1px solid rgba(0,0,0,0.03); }
+.hamburger-btn { color: var(--green-700); }
+.nav-title { color: var(--green-700); font-size: 16px; }
+
+.card-hero { border-radius: 12px; box-shadow: 0 8px 26px rgba(2,6,23,0.04); background: #fff; }
+.stats-number { font-size: 28px; font-weight:700; color: var(--green-700); }
+.small-muted { color: var(--muted); font-size:13px; }
+
+.table thead { background: linear-gradient(90deg, rgba(22,163,74,0.08), rgba(6,182,212,0.02)); }
+
+
+
+/* Asumsi: Ini adalah style untuk div konten utama yang memuat beranda.php */
+
+/* Jika Anda tidak memiliki .content-area, Anda harus membuat satu di index.php */
